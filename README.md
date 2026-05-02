@@ -62,7 +62,7 @@ cd fitkit
 
 ```bash
 cd backend
-npm install
+pnpm install
 ```
 
 Create a `.env` file:
@@ -78,7 +78,7 @@ FRONTEND_URL=http://localhost:5173
 Run backend:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ---
@@ -87,7 +87,7 @@ npm run dev
 
 ```bash
 cd ../frontend
-npm install
+pnpm install
 ```
 
 Create a `.env` file:
@@ -99,9 +99,24 @@ VITE_API_URL=http://localhost:4000
 Run frontend:
 
 ```bash
-npm run dev
+pnpm dev
 ```
+---
+Screenshots:
+- login page:
+  <img width="1359" height="772" alt="Screenshot 2026-05-03 at 00 02 15" src="https://github.com/user-attachments/assets/0d2756ff-a029-4b50-b64a-a2dc0f1c5a7c" />
 
+- Dashboard page:
+<img width="1416" height="798" alt="Screenshot 2026-05-02 at 23 56 46" src="https://github.com/user-attachments/assets/fd833f9c-03b4-4553-8594-7ccd3ff33497" />
+
+- Body page:
+<img width="1395" height="779" alt="Screenshot 2026-05-03 at 00 00 56" src="https://github.com/user-attachments/assets/fafddc34-ba9e-4b12-ba23-bf269910cc1b" />
+
+- Exercises page:
+  <img width="1409" height="791" alt="Screenshot 2026-05-03 at 00 01 03" src="https://github.com/user-attachments/assets/7ade25dd-4c92-4f3f-811d-8de42eb60b3d" />
+
+- Exercise Detail page:
+<img width="1402" height="757" alt="Screenshot 2026-05-03 at 00 01 15" src="https://github.com/user-attachments/assets/b763635f-1d4e-4e2b-9a80-7046128447b7" />
 ---
 
 ## 🔌 API Overview
@@ -132,15 +147,9 @@ PRs (Personal Records) are calculated dynamically using a Supabase RPC function:
 
 ---
 
-## 📸 Screens (optional)
-
-> Add screenshots here later (Dashboard, Exercises, Charts, etc.)
-
----
-
 ## 🌍 Deployment
 
-* **Frontend:** Vercel (https://fitkit-ja7asaqs8-kareemanbars-projects.vercel.app)
+* **Frontend:** Vercel
 * **Backend:** Render
 * **Database:** Supabase
 
@@ -149,7 +158,7 @@ PRs (Personal Records) are calculated dynamically using a Supabase RPC function:
 ## 🛠️ Future Improvements
 
 * Exercise creation & customization
-* Body metrics tracking (weight, body fat)
+* Calorie tracking (Enter caloric intake and create meals)
 * Workout plans / routines
 * Social features (share progress)
 * Dark mode
