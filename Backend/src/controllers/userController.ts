@@ -17,8 +17,8 @@ export const createUser = async (req: AuthRequest, res: Response) => {
 
     res.cookie("token", result.token, {
       httpOnly: true,
-      secure: false,
-      sameSite: "strict",
+      secure: true,
+      sameSite: "none",
       maxAge: 3600000,
     });
 
@@ -39,8 +39,8 @@ export const loginUser = async (req: Request, res: Response) => {
 
     res.cookie("token", result.token, {
       httpOnly: true,
-      secure: false, // true in production
-      sameSite: "strict",
+      secure: true, // true in production
+      sameSite: "none",
       maxAge: 3600000,
     });
 
