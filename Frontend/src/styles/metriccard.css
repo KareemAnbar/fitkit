@@ -1,0 +1,23 @@
+.title-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  align-items: center;
+}
+
+.title {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.icon {
+  color: #2cb8a0;
+}
+
+.value {
+  margin: "10px 0";
+}
+
+.date {
+  opacity: 0.5;
+}

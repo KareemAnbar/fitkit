@@ -1,0 +1,51 @@
+.chart-container {
+  margin-top: 20px;
+  height: 250px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card.highlight {
+  background: #2cb8a0;
+  color: white;
+}
+
+.card.dashed {
+  border: 2px dashed #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.full {
+  width: 100%;
+}
+
+.history-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-outline {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.btn-danger {
+  border: 1px solid #f5c2c2;
+  background: #fff;
+  color: red;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
