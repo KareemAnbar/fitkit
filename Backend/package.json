@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@supabase/supabase-js": "^2.105.0",
+    "@supabase/supabase-js": "^2.105.1",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
     "bcrypt": "^6.0.0",
