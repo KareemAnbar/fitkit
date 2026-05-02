@@ -140,7 +140,7 @@ PRs (Personal Records) are calculated dynamically using a Supabase RPC function:
 
 ## 🌍 Deployment
 
-* **Frontend:** Vercel
+* **Frontend:** Vercel (https://fitkit-ja7asaqs8-kareemanbars-projects.vercel.app)
 * **Backend:** Render
 * **Database:** Supabase
 
